@@ -1,0 +1,53 @@
+# Build output
+build/
+out/
+cmake-build-*/
+*.dir/
+
+# Visual Studio
+.vs/
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+x64/
+[Dd]ebug/
+[Rr]elease/
+*.idb
+*.pdb
+*.ilk
+*.log
+*.tlog/
+*.recipe
+ipch/
+*.opendb
+*.db
+*.db-shm
+*.db-wal
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Compiled
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+
+# IDE / editors
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
